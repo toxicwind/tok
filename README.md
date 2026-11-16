@@ -10,7 +10,7 @@
 
 **Standalone fast token counter.** Pure-JS BPE via `gpt-tokenizer` — zero native
 deps, zero network at runtime, works anywhere Bun or Node runs. A drop-in for
-the estate's `tok` CLI that no longer depends on tau-natives.
+the Pens's `tok` CLI that no longer depends on tau-natives.
 
 ## Why standalone
 
