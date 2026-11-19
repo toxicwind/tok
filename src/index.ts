@@ -1,4 +1,7 @@
 /**
- * src/index.ts — tok public entrypoint.
+ * whole — read files to the END, no skipping.
+ * The anti-overclaim sequential pager that nags until you finish.
  */
-export { countTokens, count, countAll, toksTable, encodingFor, TOK_ENCODINGS, ENCODING_MODELS } from "./tok.ts"
+export * from "./pager.ts";
+export * from "./state.ts";
+export * from "./cli.ts";
